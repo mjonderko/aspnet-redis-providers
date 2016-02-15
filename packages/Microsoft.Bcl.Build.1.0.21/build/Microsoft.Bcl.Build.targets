@@ -63,7 +63,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   
-  <!--<UsingTask TaskName="EnsureBindingRedirects" AssemblyFile="$(MSBuildThisFileDirectory)Microsoft.Bcl.Build.Tasks.dll" />-->
+  <UsingTask TaskName="EnsureBindingRedirects" AssemblyFile="$(MSBuildThisFileDirectory)Microsoft.Bcl.Build.Tasks.dll" />
 
   <!-- 
     ===================================================================================================================
